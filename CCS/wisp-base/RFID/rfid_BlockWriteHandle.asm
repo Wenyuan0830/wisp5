@@ -12,9 +12,9 @@
 ;*	@section
 ;*/
 
-	.cdecls C,LIST, "../globals.h"
-	.cdecls C,LIST, "../Math/crc16.h"
-	.cdecls C,LIST, "rfid.h"
+	.cdecls C,LIST, "../globals.h","../Math/crc16.h","rfid.h"
+	;.cdecls C,LIST, "../Math/crc16.h"*/
+	;.cdecls C,LIST, "rfid.h"*/
 
 R_bits      .set  R5
 R_scratch2	.set  R13
